@@ -24,20 +24,19 @@
 
 ---
 
-### Step 4 — Feature Engineering
-- Create new meaningful features
-- Combine or transform existing columns
-- Drop irrelevant columns
-
----
-
-### Step 5 — EDA + Correlation
+### Step 4 — check Correlation
 - Explore data distributions
 - Check correlation of features vs target
 - Remove weak or redundant features
 
 ---
 
+### Step 5 - select Features
+- Create new meaningful features
+- Combine or transform existing columns
+- Drop irrelevant columns
+
+---
 ### Step 6 — Encode + Scale
 - Encode categorical variables (Label / One-Hot Encoding)
 - Scale numerical features (MinMaxScaler / StandardScaler)
@@ -107,9 +106,9 @@ Collect Dataset
       ↓
 Clean Data
       ↓
-Feature Engineering
+Check Correlation
       ↓
-EDA + Correlation
+Feature Selection
       ↓
 Encode + Scale
       ↓
